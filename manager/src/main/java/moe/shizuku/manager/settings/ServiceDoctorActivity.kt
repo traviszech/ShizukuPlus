@@ -225,9 +225,7 @@ class ServiceDoctorActivity : AppBarActivity() {
         tipsTextView.text = if (tips.isEmpty()) {
             "Your system seems well-configured for Shizuku+."
         } else {
-            tips.joinToString("
-
-")
+            tips.joinToString("\n\n")
         }
     }
 
