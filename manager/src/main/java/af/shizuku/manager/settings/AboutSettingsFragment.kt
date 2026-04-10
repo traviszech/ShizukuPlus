@@ -38,7 +38,7 @@ class AboutSettingsFragment : BaseSettingsFragment() {
         }
 
         findPreference<Preference>("source_code")?.setOnPreferenceClickListener {
-            CustomTabsHelper.launchUrlOrCopy(context, "https://github.com/thejaustin/Shizuku+")
+            CustomTabsHelper.launchUrlOrCopy(context, "https://github.com/thejaustin/ShizukuPlus")
             true
         }
 
